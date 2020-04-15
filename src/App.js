@@ -45,7 +45,7 @@ export default class App extends Component {
   render() {
     return (
       <Router>
-        <AppBar position="sticky">
+        <AppBar position="static">
           <Toolbar>
             <Typography variant="h4">Find your favourite movie</Typography>
           </Toolbar>
