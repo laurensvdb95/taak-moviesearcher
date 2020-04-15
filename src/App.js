@@ -26,7 +26,7 @@ export default class App extends Component {
       }
     });
     axios
-      .get("https://www.omdbapi.com/?apikey=d0100bdc&s=" + str)
+      .get(process.env.REACT_APP_ENDPOINTMOVIES + "&s=" + str)
       .then(results => {
         this.setState({
           movies: {

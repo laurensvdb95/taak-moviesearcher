@@ -34,7 +34,7 @@ export default class Movie extends React.Component {
     });
     axios
       .get(
-        "https://www.omdbapi.com/?apikey=d0100bdc&plot=full&i=" +
+        process.env.REACT_APP_ENDPOINTMOVIES + "&plot=full&i=" +
           this.props.match.params.id
       )
       .then(response => {
