@@ -1,0 +1,48 @@
+body {
+  margin: 0 auto;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.loader {
+  text-align: center;
+}
+
+.error {
+  margin-top: 10px;
+}
+
+.searchButton {
+  margin-top: 20px;
+}
+
+.textField {
+  width: 500px;
+}
+
+form {
+  text-align: center;
+  padding: 30px;
+}
+
+.movieDetail {
+  text-align: center;
+}
+
+.moviePlot {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.arrowBack {
+  font-size: 3em;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
