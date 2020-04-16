@@ -1,7 +1,7 @@
 body {
   margin: 0 auto 20px auto;
   width: 1000px; 
-  background-color: #bbbbbb; 
+  background-color: #cccccc; 
 }
 
 .App {
@@ -32,10 +32,12 @@ form {
 
 .movieDetail {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
 }
 
 .moviePlot {
-  width: 800px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -48,3 +50,4 @@ form {
   flex-direction: column;
   align-items: flex-start;
 }
+

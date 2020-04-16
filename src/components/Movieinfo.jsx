@@ -62,6 +62,7 @@ export default class Movie extends React.Component {
               <img
                 src={this.state.movie.data.Poster}
                 alt={this.state.movie.data.Title}
+                className="poster"
               />
               <div className="moviePlot">
                 <h1>{this.state.movie.data.Title}</h1>
