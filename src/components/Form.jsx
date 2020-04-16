@@ -59,6 +59,7 @@ export default class props extends React.Component {
         />
         <div className="searchButton">
           <Button
+            type="submit"
             variant="contained"
             color="primary"
             startIcon={<SearchIcon />}
